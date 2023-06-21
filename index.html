@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verde & Magro</title>
+    <!--animated-->
+    <link rel="shortcut icon" href="./favicon-plantav.ico" type="image/x-icon">
+     <!--iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!--stylesheet (BS y CSS)-->
+    <!--<link href="./css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+<body>
+
+    <!--header-->
+    <div class="container-index">
+
+        <!--header version mobile-->
+        <header class="header-mobile">
+            <h1 class="logo"> Verde & Magro</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+
+        <!--header version desktop-->
+        
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo"> Verde & Magro</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="menu-completo" class="btn-menu btn-categoria active"><i class="bi bi-hand-index-fill"></i></i>Menú Completo</button>
+                    </li>
+                    <li>
+                        <button id="bowls" class="btn-menu btn-categoria"><i class="bi bi-hand-index"></i> Bowls </button>
+                    </li>
+                    <li>
+                        <button id="sandwiches" class="btn-menu btn-categoria"><i class="bi bi-hand-index"></i> Sandwiches </button>
+                    </li>
+                    <li>
+                        <button id="ensaladas" class="btn-menu btn-categoria"><i class="bi bi-hand-index"></i> Ensaladas </button>
+                    </li>
+                    <li>
+                        <button id="bebidas" class="btn-menu btn-categoria"><i class="bi bi-hand-index"></i> Bebidas </button>
+                    </li>
+                    <li>
+                        <a class="btn-menu btn-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-check-fill"></i> Carrito <span id="numero" class="numero">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!--footer-->
+            <footer>
+                <p class="texto-footer">Verde & Magro</p>
+                <p class="texto-footer"> © 2023 Todos los derechos reservados. </p>
+            </footer>
+        </aside>
+
+        <!--main-->
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Nuestro Menú</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!--tarjetas realizadas con JS -->
+            </div>
+        </main>
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/navbar.js"></script>
+</body>
+</html>

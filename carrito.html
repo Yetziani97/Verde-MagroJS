@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verde & Magro</title>
+    <!--animated-->
+    <link rel="shortcut icon" href="./favicon-plantav.ico" type="image/x-icon">
+     <!--iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!--stylesheet (BS y CSS)-->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+
+    <!--header-->
+    <div class="container-index">
+
+        <!--header version mobile-->
+        <header class="header-mobile">
+            <h1 class="logo"> Verde & Magro</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+
+        <!--header version desktop-->
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo"> Verde & Magro</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="btn-menu boton-regresar" href="../index.html">
+                            <i class="bi bi-arrow-return-left"></i> Seguir comprando
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn-menu boton-carrito active" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!--footer-->
+            <footer>
+                <p class="texto-footer ">Verde & Magro</p>
+                <p class="texto-footer "> © 2023 Todos los derechos reservados. </p>
+            </footer>
+        </aside>
+
+        <!--main-->
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio"> ¡Tu carrito está vacío! &#128546 </p>
+
+                <div id="carrito-productos" class="carrito-productos disabled">
+
+                    <!-- Se completa con JS -->
+
+                </div>
+
+               
+                <div id="carrito-funcion" class="carrito-funcion disabled row">
+                    <div class="carrito-funcion-izquierda col-6">
+                        <button id="carrito-funcion-vaciar" class="carrito-funcion-vaciar">Vaciar carrito</button>
+                    </div>
+                    <div class="carrito-funcion-derecha col-6 justify-content-end">
+                        <div class="carrito-funcion-total">
+                            <p>Total:</p>
+                            <p id="total">$100</p>
+                        </div>
+                        <button id="carrito-funcion-comprar" type="submit" class="carrito-funcion-comprar">Comprar ahora</button>
+                    </div>
+
+                    <div class="col-lg-12 contenedor-pago">
+                        <h2>Método de Pago</h2>
+                        <form class="row g-3">
+                          <div class="col-md-6">
+                            <label for="inputnombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="inputnombre">
+                          </div>
+                          <div class="col-md-6">
+                            <label for="inputApellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="inputAppellido">
+                          </div>
+                          <div class="col-12">
+                            <label for="inputCorreo" class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="inputCorreo" placeholder="" >
+                          </div>
+                          <div class="col-12">
+                            <label for="inputTelefono" class="form-label">Teléfono</label>
+                            <input type="text" class="form-control" id="inputTelefono" placeholder="(+54)" >
+                          </div>
+                          <div class="col-12">
+                            <label for="inputAddress">Dirección de Envío</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="">
+                          </div>
+                            <div class="col-12">
+                                <label for="inputTarjeta" class="form-label">Número de Tarjeta</label>
+                                <input type="text" class="form-control" id="inputTarjeta" placeholder="" required>
+                              </div>
+                            <div class="col-md-6">
+                                <label for="inputExpiracion" class="form-label">Fecha de Expiración</label>
+                                <input type="text" class="form-control" id="inputExpiracion" placeholder="(MM/AA)" required>
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputCVV" class="form-label">Código de Seguridad (CVV)</label>
+                                <input type="password" class="form-control" id="inputCVV" required>
+                              </div>
+                            </form>
+                    </div>
+                </div>
+
+                <p id="carrito-comprado" class="carrito-comprado disabled">¡Muchas gracias por tu compra! &#128523</p>
+            
+            </div>
+        </main>
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/carrito.js"></script>
+    <script src="./js/navbar.js"></script>
+
+</body>
+</html>
+
+<!--<section>
+                        <div class="col-lg-12 contenedor-pago">
+                            <form class="row g-3">
+                              <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="inputEmail4" required>
+                              </div>
+                              <div class="col-md-6">
+                                <label for="inputPassword4" class="form-label">Apellido</label>
+                                <input type="text" class="form-control" id="inputAppellido4" required>
+                              </div>
+                              <div class="col-12">
+                                <label for="inputAddress" class="form-label">Correo</label>
+                                <input type="email" class="form-control" id="inputAddress" placeholder="" required>
+                              </div>
+                              <div class="col-12">
+                                <label for="inputAddress2" class="form-label">Teléfono</label>
+                                <input type="text" class="form-control" id="inputAddress2" placeholder="(+54)" required>
+                              </div>
+                              <div class="form-group">
+                                <label for="inputAddress2">Address 2</label>
+                                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                              </div>
+                                <div class="form-group col-md-6">
+                                  <label for="inputCity">City</label>
+                                  <input type="text" class="form-control" id="inputCity">
+                                </div>
+                                <div class="form-group col-md-4">
+                                  <label for="inputState">State</label>
+                                  <input type="text" id="inputState" class="form-control">
+                                  </input>
+                                </div>
+                                <div class="form-group col-md-2">
+                                  <label for="inputZip">Zip</label>
+                                  <input type="text" class="form-control" id="inputZip">
+                                </div>
+                                <div class="col-12">
+                                    <label for="inputAddress" class="form-label">Correo</label>
+                                    <input type="email" class="form-control" id="inputAddress" placeholder="" required>
+                                  </div>
+                                <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="inputEmail4" required>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <label for="inputPassword4" class="form-label">Apellido</label>
+                                    <input type="text" class="form-control" id="inputAppellido4" required>
+                                  </div>
+                                </form>
+                        </div>
+                              
+                   

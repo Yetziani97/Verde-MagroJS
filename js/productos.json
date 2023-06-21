@@ -1,0 +1,298 @@
+[
+
+    {
+        "id": "bowl-01",
+        "titulo": "Bowl 1",
+        "imagen": "./assets/bowls/bw-01.png",
+        "categoria": {
+            "nombre": "Bowls",
+            "id": "bowls"
+        },
+        "precio": 90
+    },
+    {
+        "id": "bowl-02",
+        "titulo": "Bowl 2",
+        "imagen": "./assets/bowls/bw-02.png",
+        "categoria": {
+            "nombre": "Bowls",
+            "id": "bowls"
+        },
+        "precio": 99
+    },
+    {
+        "id": "bowl-03",
+        "titulo": "Bowl 3",
+        "imagen": "./assets/bowls/bw-03.png",
+        "categoria": {
+            "nombre": "Bowls",
+            "id": "bowls"
+        },
+        "precio": 86
+    },
+    {
+        "id": "bowl-04",
+        "titulo": "Bowl 4",
+        "imagen": "./assets/bowls/bw-04.png",
+        "categoria": {
+            "nombre": "Bowls",
+            "id": "bowls"
+        },
+        "precio": 79
+    },
+    {
+        "id": "bowl-05",
+        "titulo": "Bowl 5",
+        "imagen": "./assets/bowls/bw-05.png",
+        "categoria": {
+            "nombre": "Bowls",
+            "id": "bowls"
+        },
+        "precio": 99
+    },
+    {
+        "id": "bowl-06",
+        "titulo": "Bowl 6",
+        "imagen": "./assets/bowls/bw-06.png",
+        "categoria": {
+            "nombre": "Bowls",
+            "id": "bowls"
+        },
+        "precio": 82
+    },
+    {
+        "id": "bowl-07",
+        "titulo": "Bowl 7",
+        "imagen": "./assets/bowls/bw-07.png",
+        "categoria": {
+            "nombre": "Bowls",
+            "id": "bowls"
+        },
+        "precio": 79
+    },
+    {
+        "id": "bowl-08",
+        "titulo": "Bowl 8",
+        "imagen": "./assets/bowls/bw-08.png",
+        "categoria": {
+            "nombre": "Bowls",
+            "id": "bowls"
+        },
+        "precio": 82
+    },
+
+    {
+        "id": "sandwich-01",
+        "titulo": "Sandwich Queso",
+        "imagen": "./assets/sandwiches/sw-01.png",
+        "categoria": {
+            "nombre": "Sandwiches",
+            "id": "sandwiches"
+        },
+        "precio": 82
+    },
+    {
+        "id": "sandwich-02",
+        "titulo": "Chapata Grin",
+        "imagen": "./assets/sandwiches/sw-02.png",
+        "categoria": {
+            "nombre": "Sandwiches",
+            "id": "sandwiches"
+        },
+        "precio": 115
+    },
+    {
+        "id": "sandwich-03",
+        "titulo": "Sandwich Atún",
+        "imagen": "./assets/sandwiches/sw-03.png",
+        "categoria": {
+            "nombre": "Sandwiches",
+            "id": "sandwiches"
+        },
+        "precio": 86
+    },
+    {
+        "id": "sandwich-04",
+        "titulo": "Chapata Ibérica",
+        "imagen": "./assets/sandwiches/sw-04.png",
+        "categoria": {
+            "nombre": "Sandwiches",
+            "id": "sandwiches"
+        },
+        "precio": 139
+    },
+    {
+        "id": "sandwich-05",
+        "titulo": "Chapata Veggie",
+        "imagen": "./assets/sandwiches/sw-05.png",
+        "categoria": {
+            "nombre": "Sandwiches",
+            "id": "sandwiches"
+        },
+        "precio": 135
+    },
+
+
+    {
+        "id": "ensalada-01",
+        "titulo": "Ensalada de Pollo",
+        "imagen": "./assets/ensaladas/salad-01.png",
+        "categoria": {
+            "nombre": "Ensaladas",
+            "id": "ensaladas"
+        },
+        "precio": 120
+    },
+    {
+        "id": "ensalada-02",
+        "titulo": "Ensalada Fresa",
+        "imagen": "./assets/ensaladas/salad-02.png",
+        "categoria": {
+            "nombre": "Ensaladas",
+            "id": "ensaladas"
+        },
+        "precio": 139
+    },
+    {
+        "id": "ensalada-03",
+        "titulo": "Ensalada Tropical",
+        "imagen": "./assets/ensaladas/salad-03.png",
+        "categoria": {
+            "nombre": "Ensaladas",
+            "id": "ensaladas"
+        },
+        "precio": 150
+    },
+    {
+        "id": "ensalada-04",
+        "titulo": "Ensalada Caribeña",
+        "imagen": "./assets/ensaladas/salad-04.png",
+        "categoria": {
+            "nombre": "Ensaladas",
+            "id": "ensaladas"
+        },
+        "precio": 159
+    },
+    {
+        "id": "ensalada-05",
+        "titulo": "Ensalada César",
+        "imagen": "./assets/ensaladas/salad-05.png",
+        "categoria": {
+            "nombre": "Ensaladas",
+            "id": "ensaladas"
+        },
+        "precio": 98
+    },
+    {
+        "id": "ensalada-06",
+        "titulo": "Ensalada Norteña",
+        "imagen": "./assets/ensaladas/salad-06.png",
+        "categoria": {
+            "nombre": "Ensaladas",
+            "id": "ensaladas"
+        },
+        "precio": 94
+    },
+    {
+        "id": "ensalada-07",
+        "titulo": "Ensalada Ibérica",
+        "imagen": "./assets/ensaladas/salad-07.png",
+        "categoria": {
+            "nombre": "Ensaladas",
+            "id": "ensaladas"
+        },
+        "precio": 159
+    },
+    {
+        "id": "ensalada-08",
+        "titulo": "Ensalada de la Casa",
+        "imagen": "./assets/ensaladas/salad-08.png",
+        "categoria": {
+            "nombre": "Ensaladas",
+            "id": "ensaladas"
+        },
+        "precio": 139
+    },
+
+
+    {
+        "id": "shake-01",
+        "titulo": "Banana Shake",
+        "imagen": "./assets/bebidas/shake-banana.png",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 79
+    },
+    {
+        "id": "shake-02",
+        "titulo": "Morning Shake",
+        "imagen": "./assets/bebidas/shake-bb.png",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 82
+    },
+    {
+        "id": "shake-03",
+        "titulo": "Pink Shake",
+        "imagen": "./assets/bebidas/shake-fresa.png",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 72
+    },
+    {
+        "id": "shake-04",
+        "titulo": "Red Shake",
+        "imagen": "./assets/bebidas/shake-frojos.png",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 79
+    },
+    {
+        "id": "shake-05",
+        "titulo": "Jugo de Naranja",
+        "imagen": "./assets/bebidas/shake-naranja.png",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 69
+    },
+    {
+        "id": "shake-06",
+        "titulo": "Honey Smoothie",
+        "imagen": "./assets/bebidas/shake-piña.png",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 82
+    },
+    {
+        "id": "shake-07",
+        "titulo": "Jugo Verde",
+        "imagen": "./assets/bebidas/shake-verde.png",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 69
+    },
+    {
+        "id": "shake-08",
+        "titulo": "Jugo de Zanahoria",
+        "imagen": "./assets/bebidas/shake-zanahoria.png",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 72
+    }
+]
